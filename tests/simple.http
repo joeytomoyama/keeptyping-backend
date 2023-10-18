@@ -1,1 +1,13 @@
-GET http://localhost:3333/api/words
+GET http://localhost:3000/api/words
+
+###
+
+GET http://localhost:3000/api/words/english
+
+###
+
+GET http://localhost:3000/api/words/german
+
+###
+
+GET http://localhost:3000/api/words/test
