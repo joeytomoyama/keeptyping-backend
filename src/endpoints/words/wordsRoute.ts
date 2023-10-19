@@ -9,11 +9,11 @@ app.get('/', (request: Request, response: Response) => {
 })
 
 app.get('/english', (request: Request, response: Response) => {
-    return response.json({ message: englishWords })
+    return response.json({ words: englishWords })
 })
 
 app.get('/german', (request: Request, response: Response) => {
-    return response.json({ message: germanWords })
+    return response.json({ words: germanWords })
 })
 
 app.get('/test', async (request: Request, response: Response) => {
